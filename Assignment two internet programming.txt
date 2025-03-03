@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Advertisement</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Product</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Discover the Best Product for Your Needs</h2>
+            <p>Our product is designed to bring you the best experience possible.</p>
+            <button onclick="showAlert()">Learn More</button>
+        </section>
+        <section>
+            <h2>Product Highlights</h2>
+            <table>
+                <tr>
+                    <th>Feature</th>
+                    <th>Details</th>
+                </tr>
+                <tr>
+                    <td>Durability</td>
+                    <td>Lasts for years with top-notch materials.</td>
+                </tr>
+                <tr>
+                    <td>Design</td>
+                    <td>Modern and sleek for all users.</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Product Advertisement. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
